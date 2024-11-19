@@ -7,6 +7,9 @@ local map = LazyVim.safe_keymap_set
 map("n", "<leader>w_", "<C-W>s", { desc = "Split Window Below", remap = true })
 map("n", "<leader>w-", "<C-W>v", { desc = "Split Window Right", remap = true })
 
+-- diagnostics
+map("n", "<leader>D", vim.diagnostic.open_float, { desc = "Show Diagnostics" })
+
 -- lazygit
 if vim.fn.executable("lazygit") == 1 then
   map("n", "<leader>lg", function()
