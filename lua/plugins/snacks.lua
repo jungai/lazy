@@ -4,7 +4,7 @@ return {
     dashboard = {
       preset = {
         header = [[
- /\_____/\
+    /\_____/\
    /  o   o  \
   ( ==  ^  == )
    )         (
