@@ -4,7 +4,9 @@
 local map = LazyVim.safe_keymap_set
 
 -- window
-map("n", "<leader>w_", "<C-W>s", { desc = "Split Window Below", remap = true })
+map("n", "<leader>w_", "<C-preW>s", { desc = "Split Window Below", remap = true })
+map("n", "<leader>_", "<C-preW>s", { desc = "Split Window Below", remap = true })
+map("n", "<leader>-", "<C-W>v", { desc = "Split Window Right", remap = true })
 map("n", "<leader>w-", "<C-W>v", { desc = "Split Window Right", remap = true })
 
 -- diagnostics
