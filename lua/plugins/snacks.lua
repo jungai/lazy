@@ -1,6 +1,8 @@
 return {
   "folke/snacks.nvim",
   opts = {
+    git = {},
+    statuscolumn = { enabled = true },
     dashboard = {
       preset = {
         header = [[
