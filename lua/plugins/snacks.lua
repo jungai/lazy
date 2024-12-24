@@ -3,6 +3,7 @@ return {
   opts = {
     git = {},
     statuscolumn = { enabled = true },
+    scroll = { enabled = false },
     dashboard = {
       preset = {
         header = [[
