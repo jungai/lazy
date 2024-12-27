@@ -1,11 +1,17 @@
 return {
   "saghen/blink.cmp",
   opts = {
-    signature = { window = { border = "single" } },
+    signature = { window = { border = "rounded" } },
     completion = {
-      documentation = { window = { border = "single" } },
+      documentation = {
+        window = {
+          border = "rounded",
+          winhighlight = "Normal:BlinkCmpDoc,FloatBorder:BlinkCmpDocBorder,CursorLine:BlinkCmpDocCursorLine,Search:None",
+        },
+      },
       menu = {
-        border = "single",
+        border = "rounded",
+        winhighlight = "Normal:BlinkCmpDoc,FloatBorder:BlinkCmpDocBorder,CursorLine:BlinkCmpDocCursorLine,Search:None",
         draw = {
           components = {
             kind_icon = {
